@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<!--Head tag begins-->
+	<head> 
+		<title> Assignment #3.1 - Attaching CSS </title>
+	</head>
+	<!--Head tag ends-->
+	
+	<!-- External style sheet is being called -->
+	<link rel="stylesheet" type="text/css" href="S3_A1-style.css">
+	<!-- External CSS ends -->
+
+	<!-- CSS Internal style sheet starts -->
+	<style>
+		.img_style{
+			padding: 30px 15px 30px 15px;
+		}
+	</style>
+	<!-- Internal style ends here -->
+	
+
+	<!--Body tag begins-->
+	<body>
+		<header>
+			<!-- Navigation section for menu items starts here -->
+			<nav>
+				<a href="#">Home</a> &nbsp; 
+				<a href="#">About</a> &nbsp; 
+				<a href="#">Plan 1</a> &nbsp; 
+				<a href="#">Plan 2</a> &nbsp; 
+				<a href="#">Plan 3</a> &nbsp; 
+			</nav>
+			<!-- Navigation section ends -->
+		</header>
+		<!-- Main Content section that is article and section using html5 starts from here  -->
+		<article>
+			<section id="img_sec">
+				<img class="img_style" src="logo.jpg"/>
+				<img class="img_style" src="logo.jpg"/>
+				<img class="img_style" src="logo.jpg"/>
+			</section>
+			<section id="text_sec">
+				<h3>What is Lorem Ipsum?</h3>
+				<p style="color:#faf600;"> 
+				<!-- In the above lines we are using an inline style tag to showcase inline CSS -->
+					Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+				</p>
+			</section>
+		</article>
+	</body>
+	<!--body tag ends-->
+	
+	<!-- Assignment to learn how to attach CSS-->
+</html>	
